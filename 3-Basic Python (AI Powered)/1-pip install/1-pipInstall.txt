@@ -1,0 +1,17 @@
+What Is Pip
+Pip is the official package manager for Python. It allows you to download and install Python packages from the Python Package Index.
+
+Installing Packages Using Pip
+To install a package, you normally use the pip command in the terminal or command prompt.
+
+Example: pip install package_name
+
+This will download and install the package so it can be used in your Python programs.
+
+If Pip Command Does Not Work
+On some systems, the pip command may not work directly due to path or environment issues. In such cases, you can use Python itself to run pip.
+
+Use this command instead:
+
+python -m pip install package_name
+This ensures that pip runs using the same Python version that is installed on your system.

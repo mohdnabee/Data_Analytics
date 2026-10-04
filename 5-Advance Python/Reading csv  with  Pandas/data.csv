@@ -1,0 +1,13 @@
+order_id,customer_name,city,product,category,quantity,price_per_unit,discount_percent,order_date,delivery_date,payment_mode,order_status,rating,seller_id
+1,"Dr Amit",Jabalpur,Laptop,Electronics,1,65201.00,10,2025-01-05,2025-01-08,"Credit Card",Delivered,5,NULL
+2,"Neha Verma",Mumbai,Headphones,Electronics,2,2500.00,0,2025-01-10,2025-01-12,UPI,Cancelled,4,2
+3,"Rahul Khan",Delhi,"Office Chair",Furniture,1,12000.00,15,2025-01-12,2025-01-20,"Debit Card",Delivered,5,2
+4,"Priya Singh",Bangalore,Notebook,Stationery,10,800.00,0,2025-01-15,2025-01-16,Cash,Delivered,3,1
+5,"Arjun Mehta",Ahmedabad,SmartPhone,Electronics,1,30000.00,5,2025-01-18,NULL,UPI,Cancelled,NULL,1
+6,"Sara Ali",Delhi,"Table Lamp","Home Decor",2,1500.00,20,2025-01-20,2025-01-23,"Credit Card",Delivered,4,1
+7,"Rohit Gupta",Mumbai,"Water Bottle",Kitchen,5,500.00,0,2025-01-22,2025-01-24,Cash,Delivered,2,2
+8,"Kavita Joshi",Pune,Backpack,Accessories,1,3500.00,10,2025-01-25,2025-01-29,"Debit Card",Delivered,5,2
+9,"Mohammed Faisal",Hyderabad,Keyboard,Electronics,1,1800.00,0,2025-01-28,2025-02-01,UPI,Delivered,4,NULL
+10,"Ananya Roy",Kolkata,"Study Table",Furniture,1,15000.00,25,2025-02-01,NULL,"Credit Card",Pending,NULL,3
+11,"Vikram Patel",Surat,"Mixer Grinder",Appliances,1,4200.00,5,2025-02-03,2025-02-06,UPI,Delivered,4,NULL
+12,"Pooja Nair",Chennai,"Yoga Mat",Fitness,2,1200.00,0,2025-02-05,2025-02-07,Cash,Delivered,5,3

@@ -1,0 +1,6 @@
+OrderID,CustomerName,Product,Quantity,Price,city
+1,Alice,Laptop,1,1000,New York
+2,Bob,Smartphone,2,500,Los Angeles
+3,Charlie,Tablet,1,300,Chicago
+4,David,Headphones,3,150,Houston
+5,Eva,Camera,1,700,Phoenix

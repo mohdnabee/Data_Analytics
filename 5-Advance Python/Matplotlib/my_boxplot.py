@@ -4,6 +4,5 @@ import  numpy  as np
 data = np.random.randn(1000)
 print(data)
 
-plt.hist(data , bins =  20 , 
-         edgecolor = 'black' , alpha = 0.7) 
+plt.boxplot(data ) 
 plt.show()

@@ -1,5 +1,5 @@
-import  pandas as pd  
-#  Create a DataFrame from of ecommerce orders 
+import  pandas as pd 
+
 df =  pd.DataFrame({
     'OrderID': [1, 2, 3, 4, 5],
     'CustomerName': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
@@ -9,7 +9,5 @@ df =  pd.DataFrame({
     'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
 })
 
-print(df)
 
-# df.to_csv('ecommerce_orders.csv', index=False)
-df.to_excel('ecommerce_orders.xlsx', index=False)
+df.to_csv('ecommerce_orders.csv',mode ="a", header = True , index=False)

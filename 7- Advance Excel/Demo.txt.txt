@@ -1,0 +1,7 @@
+Name,Department,Salary,JoiningDate,Location
+Amit Sharma,Engineering,75000,2023-01-15,Delhi
+Neha Verma,Marketing,62000,2022-11-03,Noida
+Rohit Gupta,Sales,58000,2024-02-20,Gurgaon
+Priya Singh,HR,54000,2021-07-12,Lucknow
+Karan Mehta,Engineering,81000,2023-09-01,Bangalore
+Ananya Das,Finance,73000,2022-04-18,Kolkata

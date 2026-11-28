@@ -1,0 +1,144 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Sections */
+section {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #1e3c72;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+/* Buttons / Links */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: #2a5298;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+a:hover {
+    background: #1e3c72;
+    transform: translateY(-1px);
+}
+
+/* Special sections */
+.buy-cars {
+    border-left: 5px solid #2a5298;
+}
+
+.sell-cars {
+    border-left: 5px solid #28a745;
+}
+
+/* Utility boxes */
+.yellow {
+    background: #fff3cd;
+    color: #856404;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 10px;
+    border: 1px solid #ffeeba;
+}
+
+#special {
+    background: #e3f2fd;
+    color: #0d47a1;
+    padding: 25px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 12px;
+    border: 1px solid #bbdefb;
+    font-weight: 500;
+}
+
+.message{
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    .message{
+        display: block;
+        background-color: red;
+        color: white;
+        text-align: center;
+        padding: 10px; 
+    }
+}
